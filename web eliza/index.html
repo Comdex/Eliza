@@ -1,0 +1,38 @@
+<!--
+!!This note can not be deleted!!
+ Web-ELIZA!!
+ http://jok3r.ueuo.com/
+ Copyright 2013, Jackie Kuo
+ E-mail:j.kuo2012@gmail.com
+ Date: Thu Dec 19 24:52:16 2013
+ You can fork this project at https://github.com/Jing0/Web-ELIZA
+ -->
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Web ELIZA</title>
+        <script type="text/javascript" src="./terminal.js"></script>
+        <link rel="stylesheet"  type="text/css" href="./style.css"/>
+        <!--Get IP with an interface of Sina.com.cn-->
+        <script type="text/javascript" charset="gb2312" src="http://counter.sina.com.cn/ip/"></script>
+    </head>
+    <body id="body">
+        <div id="container">
+            <div id="header">
+                <div>-----------------------------------------------------</div>
+                <div>Welcome to <a style="font-family:Helvetica,monospace;font-size:20px;margin-left:10px;letter-spacing:3px;color:#4285f4;">Web ELIZA</a><sup>(alpha 0.1)</sup></div>
+                <div>NOTE:This is a demo.<a class="highlight">Only support Chrome for the time being.</a>I am trying to improve it.</div>
+                <div>Type "help" for help!</div>
+                <div>I am the psychotherapist.</div>
+                <div>Please, describe your problems.Each time you are finished talking, type RET.</div>
+                <div>-----------------------------------------------------</div>
+            </div>
+            <output id="output">
+            </output>
+            <div id="command">
+                <div id="prompt">$&gt;</div>
+                <input id="cmdline" autofocus="">
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,58 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: Menlo,Monaco，Helvetica;
+    font-size: 17px;
+    letter-spacing: 2px;
+    line-height: 20px;
+}
+#container {
+    padding: 3px 1.5em 1em 1em;
+}
+#output {
+    clear: both;
+    width: 100%;
+}
+#output h3 {
+    margin: 0;
+}
+#output pre {
+    margin: 0;
+}
+#header{
+    line-height: 20px;
+}
+#prompt {
+    float: left;
+    color: #4285f4;
+    margin-right: 7px;
+}
+#cmdline {
+    float: left;
+    margin: 0;
+    width: 96%;
+    font: inherit;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    color: #4285f4;  
+}
+#output .cmd-output .filesystem-ls span {
+    margin-right: 2%;
+}
+#output .cmd-output .filesystem-ls-l span {
+    display: block;
+}
+#output .cmd-output div .is-dir {
+    color: rgb(0, 82, 255);
+}
+.highlight{
+    color:#29F5C2;
+}
